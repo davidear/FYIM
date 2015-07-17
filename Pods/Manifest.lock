@@ -1,0 +1,14 @@
+PODS:
+  - AVOSCloud (3.1.2.6)
+  - AVOSCloudIM (3.1.2.6):
+    - AVOSCloud
+
+DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudIM
+
+SPEC CHECKSUMS:
+  AVOSCloud: a2fc903a1aee5a346f0fb839f92617378fffd2ed
+  AVOSCloudIM: f8610c1139eb143f8260c984b6de83b93d7cca57
+
+COCOAPODS: 0.37.2

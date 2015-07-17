@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DB344880333ED89BC80F995 /* libPods-FYIM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD00C1D3823B5347BEA87F0F /* libPods-FYIM.a */; };
+		B2A81ED71B592A68002265E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A81ED61B592A68002265E0 /* AppDelegate.swift */; };
+		B2A81ED91B592A68002265E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A81ED81B592A68002265E0 /* ViewController.swift */; };
+		B2A81EDC1B592A68002265E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A81EDA1B592A68002265E0 /* Main.storyboard */; };
+		B2A81EDE1B592A68002265E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A81EDD1B592A68002265E0 /* Images.xcassets */; };
+		B2A81EE11B592A68002265E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2A81EDF1B592A68002265E0 /* LaunchScreen.xib */; };
+		B2A81EED1B592A68002265E0 /* FYIMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A81EEC1B592A68002265E0 /* FYIMTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2A81EE71B592A68002265E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A81EC91B592A68002265E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A81ED01B592A68002265E0;
+			remoteInfo = FYIM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3017EA858207A59CAC7AFE9E /* Pods-FYIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYIM/Pods-FYIM.release.xcconfig"; sourceTree = "<group>"; };
+		30E8446EB1CCEF9E83029A6A /* Pods-FYIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYIM/Pods-FYIM.debug.xcconfig"; sourceTree = "<group>"; };
+		AD00C1D3823B5347BEA87F0F /* libPods-FYIM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYIM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A81ED11B592A68002265E0 /* FYIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A81ED51B592A68002265E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A81ED61B592A68002265E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2A81ED81B592A68002265E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2A81EDB1B592A68002265E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2A81EDD1B592A68002265E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2A81EE01B592A68002265E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B2A81EE61B592A68002265E0 /* FYIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A81EEB1B592A68002265E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A81EEC1B592A68002265E0 /* FYIMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYIMTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2A81ECE1B592A68002265E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB344880333ED89BC80F995 /* libPods-FYIM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A81EE31B592A68002265E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7B900D01CD7813C44FBAF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD00C1D3823B5347BEA87F0F /* libPods-FYIM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2A81EC81B592A68002265E0 = {
+			isa = PBXGroup;
+			children = (
+				B2A81ED31B592A68002265E0 /* FYIM */,
+				B2A81EE91B592A68002265E0 /* FYIMTests */,
+				B2A81ED21B592A68002265E0 /* Products */,
+				F3EF4E76E00389980ED51B14 /* Pods */,
+				2E7B900D01CD7813C44FBAF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2A81ED21B592A68002265E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2A81ED11B592A68002265E0 /* FYIM.app */,
+				B2A81EE61B592A68002265E0 /* FYIMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2A81ED31B592A68002265E0 /* FYIM */ = {
+			isa = PBXGroup;
+			children = (
+				B2A81ED61B592A68002265E0 /* AppDelegate.swift */,
+				B2A81ED81B592A68002265E0 /* ViewController.swift */,
+				B2A81EDA1B592A68002265E0 /* Main.storyboard */,
+				B2A81EDD1B592A68002265E0 /* Images.xcassets */,
+				B2A81EDF1B592A68002265E0 /* LaunchScreen.xib */,
+				B2A81ED41B592A68002265E0 /* Supporting Files */,
+			);
+			path = FYIM;
+			sourceTree = "<group>";
+		};
+		B2A81ED41B592A68002265E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2A81ED51B592A68002265E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2A81EE91B592A68002265E0 /* FYIMTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2A81EEC1B592A68002265E0 /* FYIMTests.swift */,
+				B2A81EEA1B592A68002265E0 /* Supporting Files */,
+			);
+			path = FYIMTests;
+			sourceTree = "<group>";
+		};
+		B2A81EEA1B592A68002265E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2A81EEB1B592A68002265E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3EF4E76E00389980ED51B14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30E8446EB1CCEF9E83029A6A /* Pods-FYIM.debug.xcconfig */,
+				3017EA858207A59CAC7AFE9E /* Pods-FYIM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2A81ED01B592A68002265E0 /* FYIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A81EF01B592A68002265E0 /* Build configuration list for PBXNativeTarget "FYIM" */;
+			buildPhases = (
+				661183EF417B40C1ED9CD989 /* Check Pods Manifest.lock */,
+				B2A81ECD1B592A68002265E0 /* Sources */,
+				B2A81ECE1B592A68002265E0 /* Frameworks */,
+				B2A81ECF1B592A68002265E0 /* Resources */,
+				0BF6B5C318E4BF37A11EB0A7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYIM;
+			productName = FYIM;
+			productReference = B2A81ED11B592A68002265E0 /* FYIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2A81EE51B592A68002265E0 /* FYIMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A81EF31B592A68002265E0 /* Build configuration list for PBXNativeTarget "FYIMTests" */;
+			buildPhases = (
+				B2A81EE21B592A68002265E0 /* Sources */,
+				B2A81EE31B592A68002265E0 /* Frameworks */,
+				B2A81EE41B592A68002265E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2A81EE81B592A68002265E0 /* PBXTargetDependency */,
+			);
+			name = FYIMTests;
+			productName = FYIMTests;
+			productReference = B2A81EE61B592A68002265E0 /* FYIMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2A81EC91B592A68002265E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = childrenOurFuture;
+				TargetAttributes = {
+					B2A81ED01B592A68002265E0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B2A81EE51B592A68002265E0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B2A81ED01B592A68002265E0;
+					};
+				};
+			};
+			buildConfigurationList = B2A81ECC1B592A68002265E0 /* Build configuration list for PBXProject "FYIM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2A81EC81B592A68002265E0;
+			productRefGroup = B2A81ED21B592A68002265E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2A81ED01B592A68002265E0 /* FYIM */,
+				B2A81EE51B592A68002265E0 /* FYIMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2A81ECF1B592A68002265E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A81EDC1B592A68002265E0 /* Main.storyboard in Resources */,
+				B2A81EE11B592A68002265E0 /* LaunchScreen.xib in Resources */,
+				B2A81EDE1B592A68002265E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A81EE41B592A68002265E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF6B5C318E4BF37A11EB0A7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYIM/Pods-FYIM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		661183EF417B40C1ED9CD989 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2A81ECD1B592A68002265E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A81ED91B592A68002265E0 /* ViewController.swift in Sources */,
+				B2A81ED71B592A68002265E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A81EE21B592A68002265E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A81EED1B592A68002265E0 /* FYIMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2A81EE81B592A68002265E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2A81ED01B592A68002265E0 /* FYIM */;
+			targetProxy = B2A81EE71B592A68002265E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2A81EDA1B592A68002265E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2A81EDB1B592A68002265E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2A81EDF1B592A68002265E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2A81EE01B592A68002265E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2A81EEE1B592A68002265E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2A81EEF1B592A68002265E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2A81EF11B592A68002265E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E8446EB1CCEF9E83029A6A /* Pods-FYIM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FYIM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2A81EF21B592A68002265E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3017EA858207A59CAC7AFE9E /* Pods-FYIM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FYIM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2A81EF41B592A68002265E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FYIMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYIM.app/FYIM";
+			};
+			name = Debug;
+		};
+		B2A81EF51B592A68002265E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FYIMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYIM.app/FYIM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2A81ECC1B592A68002265E0 /* Build configuration list for PBXProject "FYIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A81EEE1B592A68002265E0 /* Debug */,
+				B2A81EEF1B592A68002265E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A81EF01B592A68002265E0 /* Build configuration list for PBXNativeTarget "FYIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A81EF11B592A68002265E0 /* Debug */,
+				B2A81EF21B592A68002265E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A81EF31B592A68002265E0 /* Build configuration list for PBXNativeTarget "FYIMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A81EF41B592A68002265E0 /* Debug */,
+				B2A81EF51B592A68002265E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2A81EC91B592A68002265E0 /* Project object */;
+}
