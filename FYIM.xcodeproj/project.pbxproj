@@ -14,11 +14,12 @@
 		B2A81EE11B592A68002265E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2A81EDF1B592A68002265E0 /* LaunchScreen.xib */; };
 		B2A81EED1B592A68002265E0 /* FYIMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A81EEC1B592A68002265E0 /* FYIMTests.swift */; };
 		B2CF096A1B5A417300BFEE6A /* XHMessageBubbleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF09691B5A417300BFEE6A /* XHMessageBubbleFactory.m */; };
+		B2FDBFD01B5CFD4400C99FBF /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBFCF1B5CFD4400C99FBF /* MessageBubbleView.swift */; };
+		B2FDBFD31B5CFD5600C99FBF /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBFD11B5CFD5600C99FBF /* MainTableViewCell.swift */; };
+		B2FDBFD41B5CFD5600C99FBF /* MessageBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBFD21B5CFD5600C99FBF /* MessageBaseTableViewCell.swift */; };
+		B2FDBFD61B5CFDA300C99FBF /* SETextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBFD51B5CFDA300C99FBF /* SETextView.swift */; };
 		B2FFF48E1B5A2D2500E9663A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FFF4881B5A2D2500E9663A /* ChatViewController.swift */; };
 		B2FFF48F1B5A2D2500E9663A /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FFF4891B5A2D2500E9663A /* MainTableViewController.swift */; };
-		B2FFF4911B5A2D2500E9663A /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FFF48D1B5A2D2500E9663A /* MainTableViewCell.swift */; };
-		B2FFF4931B5A36E200E9663A /* MessageBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FFF4921B5A36E200E9663A /* MessageBaseTableViewCell.swift */; };
-		B2FFF4951B5A37B300E9663A /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FFF4941B5A37B300E9663A /* MessageBubbleView.swift */; };
 		B2FFF4A41B5A3A6700E9663A /* XHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FFF49A1B5A3A6700E9663A /* XHAnnotation.m */; };
 		B2FFF4A51B5A3A6700E9663A /* XHEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FFF49C1B5A3A6700E9663A /* XHEmotion.m */; };
 		B2FFF4A61B5A3A6700E9663A /* XHEmotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FFF49E1B5A3A6700E9663A /* XHEmotionManager.m */; };
@@ -44,7 +45,7 @@
 		B2A81ED51B592A68002265E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A81ED61B592A68002265E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2A81EDB1B592A68002265E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2A81EDD1B592A68002265E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../Images.xcassets; sourceTree = "<group>"; };
+		B2A81EDD1B592A68002265E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B2A81EE01B592A68002265E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B2A81EE61B592A68002265E0 /* FYIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A81EEB1B592A68002265E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,11 +55,12 @@
 		B2CF096B1B5A41D800BFEE6A /* XHMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHMacro.h; sourceTree = "<group>"; };
 		B2CF096C1B5A420500BFEE6A /* XHFoundationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHFoundationMacro.h; sourceTree = "<group>"; };
 		B2CF096D1B5A421A00BFEE6A /* XHUIKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHUIKitMacro.h; sourceTree = "<group>"; };
+		B2FDBFCF1B5CFD4400C99FBF /* MessageBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
+		B2FDBFD11B5CFD5600C99FBF /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		B2FDBFD21B5CFD5600C99FBF /* MessageBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBaseTableViewCell.swift; sourceTree = "<group>"; };
+		B2FDBFD51B5CFDA300C99FBF /* SETextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SETextView.swift; sourceTree = "<group>"; };
 		B2FFF4881B5A2D2500E9663A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		B2FFF4891B5A2D2500E9663A /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
-		B2FFF48D1B5A2D2500E9663A /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewCell.swift; path = ../View/MainTableViewCell.swift; sourceTree = "<group>"; };
-		B2FFF4921B5A36E200E9663A /* MessageBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageBaseTableViewCell.swift; path = ../View/MessageBaseTableViewCell.swift; sourceTree = "<group>"; };
-		B2FFF4941B5A37B300E9663A /* MessageBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageBubbleView.swift; path = ../View/MessageBubbleView.swift; sourceTree = "<group>"; };
 		B2FFF4981B5A3A6600E9663A /* FYIM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYIM-Bridging-Header.h"; sourceTree = "<group>"; };
 		B2FFF4991B5A3A6700E9663A /* XHAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAnnotation.h; sourceTree = "<group>"; };
 		B2FFF49A1B5A3A6700E9663A /* XHAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAnnotation.m; sourceTree = "<group>"; };
@@ -132,6 +134,8 @@
 		B2A81ED41B592A68002265E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B2A81EDA1B592A68002265E0 /* Main.storyboard */,
+				B2A81EDD1B592A68002265E0 /* Images.xcassets */,
 				B2A81ED61B592A68002265E0 /* AppDelegate.swift */,
 				B2A81EDF1B592A68002265E0 /* LaunchScreen.xib */,
 				B2A81ED51B592A68002265E0 /* Info.plist */,
@@ -193,6 +197,7 @@
 			children = (
 				B2FFF4A91B5A3B9C00E9663A /* Factory */,
 				B2FFF4871B5A2D2500E9663A /* Controller */,
+				B2FFF48A1B5A2D2500E9663A /* Model */,
 				B2FFF48B1B5A2D2500E9663A /* View */,
 			);
 			path = Message;
@@ -203,12 +208,6 @@
 			children = (
 				B2FFF4881B5A2D2500E9663A /* ChatViewController.swift */,
 				B2FFF4891B5A2D2500E9663A /* MainTableViewController.swift */,
-				B2FFF48A1B5A2D2500E9663A /* Model */,
-				B2FFF4921B5A36E200E9663A /* MessageBaseTableViewCell.swift */,
-				B2FFF48D1B5A2D2500E9663A /* MainTableViewCell.swift */,
-				B2FFF4941B5A37B300E9663A /* MessageBubbleView.swift */,
-				B2A81EDA1B592A68002265E0 /* Main.storyboard */,
-				B2A81EDD1B592A68002265E0 /* Images.xcassets */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,13 +228,16 @@
 				B2FFF4A31B5A3A6700E9663A /* XHShareMenuItem.m */,
 				B2FFF4981B5A3A6600E9663A /* FYIM-Bridging-Header.h */,
 			);
-			name = Model;
-			path = ../Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B2FFF48B1B5A2D2500E9663A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDBFD11B5CFD5600C99FBF /* MainTableViewCell.swift */,
+				B2FDBFD21B5CFD5600C99FBF /* MessageBaseTableViewCell.swift */,
+				B2FDBFCF1B5CFD4400C99FBF /* MessageBubbleView.swift */,
+				B2FDBFD51B5CFDA300C99FBF /* SETextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -396,17 +398,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FDBFD31B5CFD5600C99FBF /* MainTableViewCell.swift in Sources */,
 				B2FFF48E1B5A2D2500E9663A /* ChatViewController.swift in Sources */,
 				B2FFF48F1B5A2D2500E9663A /* MainTableViewController.swift in Sources */,
-				B2FFF4951B5A37B300E9663A /* MessageBubbleView.swift in Sources */,
+				B2FDBFD01B5CFD4400C99FBF /* MessageBubbleView.swift in Sources */,
+				B2FDBFD41B5CFD5600C99FBF /* MessageBaseTableViewCell.swift in Sources */,
 				B2FFF4A81B5A3A6700E9663A /* XHShareMenuItem.m in Sources */,
 				B2CF096A1B5A417300BFEE6A /* XHMessageBubbleFactory.m in Sources */,
+				B2FDBFD61B5CFDA300C99FBF /* SETextView.swift in Sources */,
 				B2FFF4A61B5A3A6700E9663A /* XHEmotionManager.m in Sources */,
 				B2FFF4A51B5A3A6700E9663A /* XHEmotion.m in Sources */,
-				B2FFF4931B5A36E200E9663A /* MessageBaseTableViewCell.swift in Sources */,
 				B2FFF4A41B5A3A6700E9663A /* XHAnnotation.m in Sources */,
 				B2A81ED71B592A68002265E0 /* AppDelegate.swift in Sources */,
-				B2FFF4911B5A2D2500E9663A /* MainTableViewCell.swift in Sources */,
 				B2FFF4A71B5A3A6700E9663A /* XHMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +439,6 @@
 				B2A81EDB1B592A68002265E0 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../../..;
 			sourceTree = "<group>";
 		};
 		B2A81EDF1B592A68002265E0 /* LaunchScreen.xib */ = {

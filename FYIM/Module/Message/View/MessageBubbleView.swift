@@ -9,13 +9,15 @@
 import UIKit
 
 class MessageBubbleView: UIView {
-  
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
-    }
-    */
+  var message: XHMessage!
+  @IBOutlet weak var displayTextView: SETextView?
+  @IBOutlet weak var bubbleImageView: UIImageView?
+  @IBOutlet weak var emotionImageView: UIImageView?
+  @IBOutlet weak var animationVoiceImageView: UIImageView?
+  @IBOutlet weak var voiceUnreadDotImageView: UIImageView?
+  @IBOutlet weak var bubblePhotoImageView: UIImageView?
+  @IBOutlet weak var videoPlayImageView: UIImageView?
+  @IBOutlet weak var geolocationsLabel: UILabel?
+
 
 }

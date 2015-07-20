@@ -4,6 +4,7 @@
 target 'FYIM' do
 pod 'AVOSCloud'
 pod 'AVOSCloudIM'
+pod 'SECoreTextView', '~> 0.8.5'
 end
 
 target 'FYIMTests' do

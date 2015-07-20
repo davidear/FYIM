@@ -20,3 +20,9 @@
 // Please contact the author.
 // Version: 3.1.2.6.
 
+// SECoreTextView
+#define COCOAPODS_POD_AVAILABLE_SECoreTextView
+#define COCOAPODS_VERSION_MAJOR_SECoreTextView 0
+#define COCOAPODS_VERSION_MINOR_SECoreTextView 8
+#define COCOAPODS_VERSION_PATCH_SECoreTextView 5
+
