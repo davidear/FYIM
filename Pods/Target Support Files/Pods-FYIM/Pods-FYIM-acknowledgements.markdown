@@ -9,9 +9,9 @@ Copyright 2015 LeanCloud, Inc. See https://leancloud.cn/terms.html
 
 Copyright 2015 LeanCloud, Inc. See https://leancloud.cn/terms.html
 
-## SECoreTextView
+## SnapKit
 
-Copyright (c) 2013 kishikawa katsumi (http://kishikawakatsumi.com/)
+Copyright (c) 2011-Present SnapKit Team - https://github.com/SnapKit
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

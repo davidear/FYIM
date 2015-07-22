@@ -20,7 +20,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
 
   func loadData() {
     for var i = 0; i < 10; i++ {
-      let msg = XHMessage(text: "\(i). test text test text test text test text test text test text ", sender: "davidear", timestamp: NSDate())
+      let msg = XHMessage(text: "\(i). test text test text test text test text test text test text test text test text test text test text test text test text", sender: "davidear", timestamp: NSDate())
       messages .addObject(msg)
     }
   }

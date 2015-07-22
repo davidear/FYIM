@@ -1,17 +1,17 @@
 PODS:
-  - AVOSCloud (3.1.2.6)
-  - AVOSCloudIM (3.1.2.6):
+  - AVOSCloud (3.1.2.7)
+  - AVOSCloudIM (3.1.2.7):
     - AVOSCloud
-  - SECoreTextView (0.8.5)
+  - SnapKit (0.12.0)
 
 DEPENDENCIES:
   - AVOSCloud
   - AVOSCloudIM
-  - SECoreTextView (~> 0.8.5)
+  - SnapKit (~> 0.12.0)
 
 SPEC CHECKSUMS:
-  AVOSCloud: a2fc903a1aee5a346f0fb839f92617378fffd2ed
-  AVOSCloudIM: f8610c1139eb143f8260c984b6de83b93d7cca57
-  SECoreTextView: 5f3bedc0c9ffc2f4c109c37142f25c12f37368dd
+  AVOSCloud: cf652452948681193fb9d2ca493939d0ada87ecb
+  AVOSCloudIM: 2f74b6da785c7f987762227dec8f36178d3976e5
+  SnapKit: 00c388aa3bf1944c1b55472f31e841f75bd83882
 
 COCOAPODS: 0.37.2

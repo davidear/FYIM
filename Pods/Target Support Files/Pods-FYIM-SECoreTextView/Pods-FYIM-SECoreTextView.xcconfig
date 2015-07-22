@@ -1,1 +1,0 @@
-PODS_FYIM_SECORETEXTVIEW_OTHER_LDFLAGS = -framework "CoreText" -framework "QuartzCore"

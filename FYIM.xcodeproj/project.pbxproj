@@ -7,7 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9DB344880333ED89BC80F995 /* libPods-FYIM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD00C1D3823B5347BEA87F0F /* libPods-FYIM.a */; };
+		6D653226071B0BA3D452F06A /* Pods_FYIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C2A7D12A4529A4B54F404C /* Pods_FYIM.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B26C0DAB1B5F3AC500F8AE46 /* XHMessageBubbleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DAA1B5F3AC500F8AE46 /* XHMessageBubbleHelper.m */; };
+		B26C0E091B5F8FEF00F8AE46 /* SECompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DEA1B5F8FEF00F8AE46 /* SECompatibility.m */; };
+		B26C0E0A1B5F8FEF00F8AE46 /* SEConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DEC1B5F8FEF00F8AE46 /* SEConstants.m */; };
+		B26C0E0B1B5F8FEF00F8AE46 /* SELineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DEE1B5F8FEF00F8AE46 /* SELineLayout.m */; };
+		B26C0E0C1B5F8FEF00F8AE46 /* SELinkText.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DF01B5F8FEF00F8AE46 /* SELinkText.m */; };
+		B26C0E0D1B5F8FEF00F8AE46 /* SESelectionGrabber.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DF21B5F8FEF00F8AE46 /* SESelectionGrabber.m */; };
+		B26C0E0E1B5F8FEF00F8AE46 /* SETextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DF41B5F8FEF00F8AE46 /* SETextAttachment.m */; };
+		B26C0E0F1B5F8FEF00F8AE46 /* SETextEditingCaret.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DF61B5F8FEF00F8AE46 /* SETextEditingCaret.m */; };
+		B26C0E101B5F8FEF00F8AE46 /* SETextGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DF81B5F8FEF00F8AE46 /* SETextGeometry.m */; };
+		B26C0E111B5F8FEF00F8AE46 /* SETextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DFA1B5F8FEF00F8AE46 /* SETextInput.m */; };
+		B26C0E121B5F8FEF00F8AE46 /* SETextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DFC1B5F8FEF00F8AE46 /* SETextLayout.m */; };
+		B26C0E131B5F8FEF00F8AE46 /* SETextMagnifierCaret.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0DFE1B5F8FEF00F8AE46 /* SETextMagnifierCaret.m */; };
+		B26C0E141B5F8FEF00F8AE46 /* SETextMagnifierRanged.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0E001B5F8FEF00F8AE46 /* SETextMagnifierRanged.m */; };
+		B26C0E151B5F8FEF00F8AE46 /* SETextSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0E021B5F8FEF00F8AE46 /* SETextSelection.m */; };
+		B26C0E161B5F8FEF00F8AE46 /* SETextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0E041B5F8FEF00F8AE46 /* SETextSelectionView.m */; };
+		B26C0E171B5F8FEF00F8AE46 /* SETextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0E061B5F8FEF00F8AE46 /* SETextView.m */; };
+		B26C0E181B5F8FEF00F8AE46 /* SEViewCaptureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0E081B5F8FEF00F8AE46 /* SEViewCaptureHelper.m */; };
 		B2A81ED71B592A68002265E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A81ED61B592A68002265E0 /* AppDelegate.swift */; };
 		B2A81EDC1B592A68002265E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A81EDA1B592A68002265E0 /* Main.storyboard */; };
 		B2A81EDE1B592A68002265E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A81EDD1B592A68002265E0 /* Images.xcassets */; };
@@ -17,7 +34,6 @@
 		B2FDBFD01B5CFD4400C99FBF /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBFCF1B5CFD4400C99FBF /* MessageBubbleView.swift */; };
 		B2FDBFD31B5CFD5600C99FBF /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBFD11B5CFD5600C99FBF /* MainTableViewCell.swift */; };
 		B2FDBFD41B5CFD5600C99FBF /* MessageBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBFD21B5CFD5600C99FBF /* MessageBaseTableViewCell.swift */; };
-		B2FDBFD61B5CFDA300C99FBF /* SETextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBFD51B5CFDA300C99FBF /* SETextView.swift */; };
 		B2FFF48E1B5A2D2500E9663A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FFF4881B5A2D2500E9663A /* ChatViewController.swift */; };
 		B2FFF48F1B5A2D2500E9663A /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FFF4891B5A2D2500E9663A /* MainTableViewController.swift */; };
 		B2FFF4A41B5A3A6700E9663A /* XHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FFF49A1B5A3A6700E9663A /* XHAnnotation.m */; };
@@ -38,9 +54,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24C2A7D12A4529A4B54F404C /* Pods_FYIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3017EA858207A59CAC7AFE9E /* Pods-FYIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYIM/Pods-FYIM.release.xcconfig"; sourceTree = "<group>"; };
 		30E8446EB1CCEF9E83029A6A /* Pods-FYIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYIM/Pods-FYIM.debug.xcconfig"; sourceTree = "<group>"; };
-		AD00C1D3823B5347BEA87F0F /* libPods-FYIM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYIM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26C0DA81B5F2BF000F8AE46 /* FYIM-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FYIM-Bridging-Header.h"; sourceTree = "<group>"; };
+		B26C0DA91B5F3AC500F8AE46 /* XHMessageBubbleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMessageBubbleHelper.h; sourceTree = "<group>"; };
+		B26C0DAA1B5F3AC500F8AE46 /* XHMessageBubbleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHMessageBubbleHelper.m; sourceTree = "<group>"; };
+		B26C0DE91B5F8FEF00F8AE46 /* SECompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SECompatibility.h; sourceTree = "<group>"; };
+		B26C0DEA1B5F8FEF00F8AE46 /* SECompatibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECompatibility.m; sourceTree = "<group>"; };
+		B26C0DEB1B5F8FEF00F8AE46 /* SEConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEConstants.h; sourceTree = "<group>"; };
+		B26C0DEC1B5F8FEF00F8AE46 /* SEConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEConstants.m; sourceTree = "<group>"; };
+		B26C0DED1B5F8FEF00F8AE46 /* SELineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELineLayout.h; sourceTree = "<group>"; };
+		B26C0DEE1B5F8FEF00F8AE46 /* SELineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SELineLayout.m; sourceTree = "<group>"; };
+		B26C0DEF1B5F8FEF00F8AE46 /* SELinkText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELinkText.h; sourceTree = "<group>"; };
+		B26C0DF01B5F8FEF00F8AE46 /* SELinkText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SELinkText.m; sourceTree = "<group>"; };
+		B26C0DF11B5F8FEF00F8AE46 /* SESelectionGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESelectionGrabber.h; sourceTree = "<group>"; };
+		B26C0DF21B5F8FEF00F8AE46 /* SESelectionGrabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESelectionGrabber.m; sourceTree = "<group>"; };
+		B26C0DF31B5F8FEF00F8AE46 /* SETextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextAttachment.h; sourceTree = "<group>"; };
+		B26C0DF41B5F8FEF00F8AE46 /* SETextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextAttachment.m; sourceTree = "<group>"; };
+		B26C0DF51B5F8FEF00F8AE46 /* SETextEditingCaret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextEditingCaret.h; sourceTree = "<group>"; };
+		B26C0DF61B5F8FEF00F8AE46 /* SETextEditingCaret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextEditingCaret.m; sourceTree = "<group>"; };
+		B26C0DF71B5F8FEF00F8AE46 /* SETextGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextGeometry.h; sourceTree = "<group>"; };
+		B26C0DF81B5F8FEF00F8AE46 /* SETextGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextGeometry.m; sourceTree = "<group>"; };
+		B26C0DF91B5F8FEF00F8AE46 /* SETextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextInput.h; sourceTree = "<group>"; };
+		B26C0DFA1B5F8FEF00F8AE46 /* SETextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextInput.m; sourceTree = "<group>"; };
+		B26C0DFB1B5F8FEF00F8AE46 /* SETextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextLayout.h; sourceTree = "<group>"; };
+		B26C0DFC1B5F8FEF00F8AE46 /* SETextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextLayout.m; sourceTree = "<group>"; };
+		B26C0DFD1B5F8FEF00F8AE46 /* SETextMagnifierCaret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextMagnifierCaret.h; sourceTree = "<group>"; };
+		B26C0DFE1B5F8FEF00F8AE46 /* SETextMagnifierCaret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextMagnifierCaret.m; sourceTree = "<group>"; };
+		B26C0DFF1B5F8FEF00F8AE46 /* SETextMagnifierRanged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextMagnifierRanged.h; sourceTree = "<group>"; };
+		B26C0E001B5F8FEF00F8AE46 /* SETextMagnifierRanged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextMagnifierRanged.m; sourceTree = "<group>"; };
+		B26C0E011B5F8FEF00F8AE46 /* SETextSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextSelection.h; sourceTree = "<group>"; };
+		B26C0E021B5F8FEF00F8AE46 /* SETextSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextSelection.m; sourceTree = "<group>"; };
+		B26C0E031B5F8FEF00F8AE46 /* SETextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextSelectionView.h; sourceTree = "<group>"; };
+		B26C0E041B5F8FEF00F8AE46 /* SETextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextSelectionView.m; sourceTree = "<group>"; };
+		B26C0E051B5F8FEF00F8AE46 /* SETextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextView.h; sourceTree = "<group>"; };
+		B26C0E061B5F8FEF00F8AE46 /* SETextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextView.m; sourceTree = "<group>"; };
+		B26C0E071B5F8FEF00F8AE46 /* SEViewCaptureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEViewCaptureHelper.h; sourceTree = "<group>"; };
+		B26C0E081B5F8FEF00F8AE46 /* SEViewCaptureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEViewCaptureHelper.m; sourceTree = "<group>"; };
 		B2A81ED11B592A68002265E0 /* FYIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A81ED51B592A68002265E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A81ED61B592A68002265E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +109,8 @@
 		B2FDBFCF1B5CFD4400C99FBF /* MessageBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
 		B2FDBFD11B5CFD5600C99FBF /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		B2FDBFD21B5CFD5600C99FBF /* MessageBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBaseTableViewCell.swift; sourceTree = "<group>"; };
-		B2FDBFD51B5CFDA300C99FBF /* SETextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SETextView.swift; sourceTree = "<group>"; };
 		B2FFF4881B5A2D2500E9663A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		B2FFF4891B5A2D2500E9663A /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
-		B2FFF4981B5A3A6600E9663A /* FYIM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYIM-Bridging-Header.h"; sourceTree = "<group>"; };
 		B2FFF4991B5A3A6700E9663A /* XHAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAnnotation.h; sourceTree = "<group>"; };
 		B2FFF49A1B5A3A6700E9663A /* XHAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAnnotation.m; sourceTree = "<group>"; };
 		B2FFF49B1B5A3A6700E9663A /* XHEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHEmotion.h; sourceTree = "<group>"; };
@@ -80,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DB344880333ED89BC80F995 /* libPods-FYIM.a in Frameworks */,
+				6D653226071B0BA3D452F06A /* Pods_FYIM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +146,56 @@
 		2E7B900D01CD7813C44FBAF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AD00C1D3823B5347BEA87F0F /* libPods-FYIM.a */,
+				24C2A7D12A4529A4B54F404C /* Pods_FYIM.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B26C0DE71B5F8EED00F8AE46 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				B26C0DE81B5F8FEF00F8AE46 /* SECoreTextView */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		B26C0DE81B5F8FEF00F8AE46 /* SECoreTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B26C0DE91B5F8FEF00F8AE46 /* SECompatibility.h */,
+				B26C0DEA1B5F8FEF00F8AE46 /* SECompatibility.m */,
+				B26C0DEB1B5F8FEF00F8AE46 /* SEConstants.h */,
+				B26C0DEC1B5F8FEF00F8AE46 /* SEConstants.m */,
+				B26C0DED1B5F8FEF00F8AE46 /* SELineLayout.h */,
+				B26C0DEE1B5F8FEF00F8AE46 /* SELineLayout.m */,
+				B26C0DEF1B5F8FEF00F8AE46 /* SELinkText.h */,
+				B26C0DF01B5F8FEF00F8AE46 /* SELinkText.m */,
+				B26C0DF11B5F8FEF00F8AE46 /* SESelectionGrabber.h */,
+				B26C0DF21B5F8FEF00F8AE46 /* SESelectionGrabber.m */,
+				B26C0DF31B5F8FEF00F8AE46 /* SETextAttachment.h */,
+				B26C0DF41B5F8FEF00F8AE46 /* SETextAttachment.m */,
+				B26C0DF51B5F8FEF00F8AE46 /* SETextEditingCaret.h */,
+				B26C0DF61B5F8FEF00F8AE46 /* SETextEditingCaret.m */,
+				B26C0DF71B5F8FEF00F8AE46 /* SETextGeometry.h */,
+				B26C0DF81B5F8FEF00F8AE46 /* SETextGeometry.m */,
+				B26C0DF91B5F8FEF00F8AE46 /* SETextInput.h */,
+				B26C0DFA1B5F8FEF00F8AE46 /* SETextInput.m */,
+				B26C0DFB1B5F8FEF00F8AE46 /* SETextLayout.h */,
+				B26C0DFC1B5F8FEF00F8AE46 /* SETextLayout.m */,
+				B26C0DFD1B5F8FEF00F8AE46 /* SETextMagnifierCaret.h */,
+				B26C0DFE1B5F8FEF00F8AE46 /* SETextMagnifierCaret.m */,
+				B26C0DFF1B5F8FEF00F8AE46 /* SETextMagnifierRanged.h */,
+				B26C0E001B5F8FEF00F8AE46 /* SETextMagnifierRanged.m */,
+				B26C0E011B5F8FEF00F8AE46 /* SETextSelection.h */,
+				B26C0E021B5F8FEF00F8AE46 /* SETextSelection.m */,
+				B26C0E031B5F8FEF00F8AE46 /* SETextSelectionView.h */,
+				B26C0E041B5F8FEF00F8AE46 /* SETextSelectionView.m */,
+				B26C0E051B5F8FEF00F8AE46 /* SETextView.h */,
+				B26C0E061B5F8FEF00F8AE46 /* SETextView.m */,
+				B26C0E071B5F8FEF00F8AE46 /* SEViewCaptureHelper.h */,
+				B26C0E081B5F8FEF00F8AE46 /* SEViewCaptureHelper.m */,
+			);
+			path = SECoreTextView;
 			sourceTree = "<group>";
 		};
 		B2A81EC81B592A68002265E0 = {
@@ -125,6 +221,7 @@
 		B2A81ED31B592A68002265E0 /* FYIM */ = {
 			isa = PBXGroup;
 			children = (
+				B26C0DE71B5F8EED00F8AE46 /* Vendor */,
 				B2A81EF61B5931ED002265E0 /* Module */,
 				B2A81ED41B592A68002265E0 /* Supporting Files */,
 			);
@@ -134,6 +231,7 @@
 		B2A81ED41B592A68002265E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B26C0DA81B5F2BF000F8AE46 /* FYIM-Bridging-Header.h */,
 				B2A81EDA1B592A68002265E0 /* Main.storyboard */,
 				B2A81EDD1B592A68002265E0 /* Images.xcassets */,
 				B2A81ED61B592A68002265E0 /* AppDelegate.swift */,
@@ -195,6 +293,8 @@
 		B2FFF4861B5A2D2500E9663A /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				B26C0DA91B5F3AC500F8AE46 /* XHMessageBubbleHelper.h */,
+				B26C0DAA1B5F3AC500F8AE46 /* XHMessageBubbleHelper.m */,
 				B2FFF4A91B5A3B9C00E9663A /* Factory */,
 				B2FFF4871B5A2D2500E9663A /* Controller */,
 				B2FFF48A1B5A2D2500E9663A /* Model */,
@@ -226,7 +326,6 @@
 				B2FFF4A11B5A3A6700E9663A /* XHMessageModel.h */,
 				B2FFF4A21B5A3A6700E9663A /* XHShareMenuItem.h */,
 				B2FFF4A31B5A3A6700E9663A /* XHShareMenuItem.m */,
-				B2FFF4981B5A3A6600E9663A /* FYIM-Bridging-Header.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -237,7 +336,6 @@
 				B2FDBFD11B5CFD5600C99FBF /* MainTableViewCell.swift */,
 				B2FDBFD21B5CFD5600C99FBF /* MessageBaseTableViewCell.swift */,
 				B2FDBFCF1B5CFD4400C99FBF /* MessageBubbleView.swift */,
-				B2FDBFD51B5CFDA300C99FBF /* SETextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -275,6 +373,7 @@
 				B2A81ECE1B592A68002265E0 /* Frameworks */,
 				B2A81ECF1B592A68002265E0 /* Resources */,
 				0BF6B5C318E4BF37A11EB0A7 /* Copy Pods Resources */,
+				D615988C82F4AEFF6BA1ACAC /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -391,6 +490,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		D615988C82F4AEFF6BA1ACAC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYIM/Pods-FYIM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -398,19 +512,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26C0E121B5F8FEF00F8AE46 /* SETextLayout.m in Sources */,
 				B2FDBFD31B5CFD5600C99FBF /* MainTableViewCell.swift in Sources */,
 				B2FFF48E1B5A2D2500E9663A /* ChatViewController.swift in Sources */,
+				B26C0E0D1B5F8FEF00F8AE46 /* SESelectionGrabber.m in Sources */,
+				B26C0E111B5F8FEF00F8AE46 /* SETextInput.m in Sources */,
+				B26C0E181B5F8FEF00F8AE46 /* SEViewCaptureHelper.m in Sources */,
+				B26C0DAB1B5F3AC500F8AE46 /* XHMessageBubbleHelper.m in Sources */,
+				B26C0E0C1B5F8FEF00F8AE46 /* SELinkText.m in Sources */,
 				B2FFF48F1B5A2D2500E9663A /* MainTableViewController.swift in Sources */,
 				B2FDBFD01B5CFD4400C99FBF /* MessageBubbleView.swift in Sources */,
 				B2FDBFD41B5CFD5600C99FBF /* MessageBaseTableViewCell.swift in Sources */,
 				B2FFF4A81B5A3A6700E9663A /* XHShareMenuItem.m in Sources */,
+				B26C0E171B5F8FEF00F8AE46 /* SETextView.m in Sources */,
+				B26C0E141B5F8FEF00F8AE46 /* SETextMagnifierRanged.m in Sources */,
+				B26C0E0B1B5F8FEF00F8AE46 /* SELineLayout.m in Sources */,
+				B26C0E151B5F8FEF00F8AE46 /* SETextSelection.m in Sources */,
+				B26C0E0E1B5F8FEF00F8AE46 /* SETextAttachment.m in Sources */,
+				B26C0E0A1B5F8FEF00F8AE46 /* SEConstants.m in Sources */,
+				B26C0E101B5F8FEF00F8AE46 /* SETextGeometry.m in Sources */,
+				B26C0E131B5F8FEF00F8AE46 /* SETextMagnifierCaret.m in Sources */,
 				B2CF096A1B5A417300BFEE6A /* XHMessageBubbleFactory.m in Sources */,
-				B2FDBFD61B5CFDA300C99FBF /* SETextView.swift in Sources */,
 				B2FFF4A61B5A3A6700E9663A /* XHEmotionManager.m in Sources */,
 				B2FFF4A51B5A3A6700E9663A /* XHEmotion.m in Sources */,
+				B26C0E091B5F8FEF00F8AE46 /* SECompatibility.m in Sources */,
 				B2FFF4A41B5A3A6700E9663A /* XHAnnotation.m in Sources */,
+				B26C0E161B5F8FEF00F8AE46 /* SETextSelectionView.m in Sources */,
 				B2A81ED71B592A68002265E0 /* AppDelegate.swift in Sources */,
 				B2FFF4A71B5A3A6700E9663A /* XHMessage.m in Sources */,
+				B26C0E0F1B5F8FEF00F8AE46 /* SETextEditingCaret.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +672,8 @@
 				INFOPLIST_FILE = FYIM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FYIM/Module/Message/Model/FYIM-Bridging-Header.h";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FYIM/FYIM-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -556,7 +687,8 @@
 				INFOPLIST_FILE = FYIM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FYIM/Module/Message/Model/FYIM-Bridging-Header.h";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FYIM/FYIM-Bridging-Header.h";
 			};
 			name = Release;
 		};

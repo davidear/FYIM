@@ -1,2 +1,1 @@
-PODS_FYIM_AVOSCLOUDIM_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/AVOSCloudIM"
-PODS_FYIM_AVOSCLOUDIM_OTHER_LDFLAGS = $(inherited) -undefined dynamic_lookup -l"AVOSCloudIM"
+PODS_FYIM_AVOSCLOUDIM_OTHER_LDFLAGS = $(inherited) -all_load -undefined dynamic_lookup

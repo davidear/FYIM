@@ -77,6 +77,8 @@ class MessageBaseTableViewCell: UITableViewCell {
   func configureBubbleView(message: XHMessage) {
 //    let currentMediaType = message.messageMediaType
 //    for gestureRecognizer in self.messageBubbleView.b
+    self.messageBubbleView .configureCellWithMessage(message)
+    self .layoutIfNeeded()
   }
   
   //MARK:-

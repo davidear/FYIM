@@ -2,9 +2,10 @@
 # platform :ios, '6.0'
 
 target 'FYIM' do
-pod 'AVOSCloud'
-pod 'AVOSCloudIM'
-pod 'SECoreTextView', '~> 0.8.5'
+  pod 'AVOSCloud'
+  pod 'AVOSCloudIM'
+  use_frameworks!
+  pod 'SnapKit', '~> 0.12.0'
 end
 
 target 'FYIMTests' do

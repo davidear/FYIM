@@ -30,7 +30,7 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright (c) 2013 kishikawa katsumi (http://kishikawakatsumi.com/)
+			<string>Copyright (c) 2011-Present SnapKit Team - https://github.com/SnapKit
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -51,7 +51,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </string>
 			<key>Title</key>
-			<string>SECoreTextView</string>
+			<string>SnapKit</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
